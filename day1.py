@@ -23,7 +23,7 @@ What is the total distance between your lists?"""
 # Open the file and read the contents
 col1 = []
 col2 = []
-with open('list.txt', 'r') as file:
+with open('input_day1.txt', 'r') as file:
     for line in file:
         elements = line.split()
         col1.append(int(elements[0]))
